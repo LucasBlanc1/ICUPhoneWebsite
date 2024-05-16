@@ -1,0 +1,455 @@
+@media screen and (min-width:1920px){
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #1CABE3;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    background-color: #000000;
+    color: white;
+    padding: 1.5%;
+    text-align: center;
+    font-size: x-large;
+    justify-content: space-evenly;
+    height: 10%;
+    border-bottom: pink 6pt groove
+}
+
+.HeaderText {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: white;
+    float: left;
+    margin-top: -50px;
+    margin-left: 430px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+footer  {
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    float: left;
+    font-size: x-large;
+    border-top: pink 6pt groove;
+}
+
+footer img  {
+    width: 2.7%;
+    height: auto;
+    float: right;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a.home:hover {
+    color: red;
+}
+
+a.About:hover {
+    color: orange;
+}
+
+a.work:hover {
+    color: yellow;
+}
+
+a.staff:hover {
+    color: lime;
+}
+
+a.phones:hover {
+    color: blue;
+}
+
+a.accessories:hover {
+    color: indigo;
+}
+
+a.reviews:hover {
+    color: violet;
+}
+
+a.sponsor:hover {
+    color: pink;
+}
+
+
+.people {
+    margin-top: 4%;
+}
+.Person1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.Person1 img {
+    margin-top: -4%;
+    margin-left: 0%;
+    border-radius: 60%;
+    width: 20%;
+    height: 30%;
+    border: lime 4pt groove;
+}
+
+.Person2 {
+    height: 100vh;
+    width: 100%;
+    margin-top: -53.7%;
+    margin-left: 20%;
+    float: left;
+}
+
+.Person2 img {
+    border: lime 4pt groove;
+    border-radius: 60%;
+    height: 30%;
+    width: 20%;
+}
+
+.Person3 {
+    height: 100vh;
+    width: 100%;
+    margin-top: -53.7%;
+    margin-left: 40%;
+    float: left;
+}
+
+.Person3 img {
+    border: lime 4pt groove;
+    border-radius: 60%;
+    height: 30%;
+    width: 20%;
+}
+
+.Person4 {
+    height: 100vh;
+    width: 100%;
+    margin-top: -53.7%;
+    margin-left: 60%;
+    float: left;
+}
+
+.Person4 img {
+    border: lime 4pt groove;
+    border-radius: 60%;
+    height: 30%;
+    width: 20%;
+}
+
+.Person5 {
+    height: 100vh;
+    width: 100%;
+    margin-top: -53.7%;
+    margin-left: 80%;
+}
+
+.Person5 img {
+    border: lime 4pt groove;
+    border-radius: 60%;
+    height: 30%;
+    width: 20%;
+}
+
+.Person1Text {
+    margin-top: -34%;
+    margin-left: 0%;
+    background-color: #000000;
+    color: white;
+    font-size: large;
+    border: 4pt lime solid;
+}
+
+.Person2Text {
+    margin-top: -17.2%;
+    margin-left: 21%;
+    position: fixed;
+    color: white;
+    font-size: large;
+    float: left;
+}
+
+.Person3Text {
+    margin-top: -17.2%;
+    margin-left: 40.5%;
+    position: fixed;
+    color: white;
+    font-size: large;
+    float: left;
+}
+
+.Person4Text {
+    margin-top: -17.2%;
+    margin-left: 62%;
+    position: fixed;
+    font-size: large;
+    color: white;
+    float: left;
+}
+
+.Person5Text {
+    margin-top: -17.2%;
+    margin-left: 83.5%;
+    position: fixed;
+    font-size: large;
+    color: white;
+    float: left;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1440px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #1CABE3;
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    header{
+        background-color: #000000;
+        color: white;
+        padding: 1.5%;
+        text-align: center;
+        justify-content: space-evenly;
+        height: 10%;
+        border-bottom: pink 6pt groove
+    }
+
+    .HeaderText {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        color: white;
+        float: left;
+        margin-top: -42px;
+        margin-left: 20%;
+        font-size: 120%;
+        text-decoration: none;
+    }
+    footer  {
+        color: white;
+        text-align: center;
+        padding: 1% 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #000000;
+        float: left;
+        font-size: 120%;
+        border-top: pink 6pt groove;
+    }
+    
+    footer img  {
+        width: 2.7%;
+        height: auto;
+        float: right;
+    }
+    
+    a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a.home:hover {
+        color: red;
+    }
+    
+    a.About:hover {
+        color: orange;
+    }
+    
+    a.work:hover {
+        color: yellow;
+    }
+    
+    a.staff:hover {
+        color: lime;
+    }
+    
+    a.phones:hover {
+        color: blue;
+    }
+    
+    a.accessories:hover {
+        color: indigo;
+    }
+    
+    a.reviews:hover {
+        color: violet;
+    }
+    
+    a.sponsor:hover {
+        color: pink;
+    }
+     
+    .people {
+        margin-top: 0%;
+    }
+    .Person1 {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .Person1 img {
+        margin-top: 0%;
+        margin-left: 0%;
+        border-radius: 60%;
+        width: 20%;
+        height: 30%;
+        border: lime 4pt groove;
+    }
+    
+    .Person2 {
+        height: 100vh;
+        width: 100%;
+        margin-top: -53.7%;
+        margin-left: 20%;
+        float: left;
+    }
+    
+    .Person2 img {
+        border: lime 4pt groove;
+        border-radius: 60%;
+        height: 30%;
+        width: 20%;
+    }
+    
+    .Person3 {
+        height: 100vh;
+        width: 100%;
+        margin-top: -53.7%;
+        margin-left: 40%;
+        float: left;
+    }
+    
+    .Person3 img {
+        border: lime 4pt groove;
+        border-radius: 60%;
+        height: 30%;
+        width: 20%;
+    }
+    
+    .Person4 {
+        height: 100vh;
+        width: 100%;
+        margin-top: -53.7%;
+        margin-left: 60%;
+        float: left;
+    }
+    
+    .Person4 img {
+        border: lime 4pt groove;
+        border-radius: 60%;
+        height: 30%;
+        width: 20%;
+    }
+    
+    .Person5 {
+        height: 100vh;
+        width: 100%;
+        margin-top: -53.7%;
+        margin-left: 80%;
+    }
+    
+    .Person5 img {
+        border: lime 4pt groove;
+        border-radius: 60%;
+        height: 30%;
+        width: 20%;
+    }
+    
+    .Person1Text {
+        margin-top: -33%;
+        margin-left: 0%;
+        background-color: #000000;
+        color: white;
+        border: 4pt lime solid;
+        font-size: small;
+    }
+    
+    .Person2Text {
+        margin-top: -16.5%;
+        margin-left: 21%;
+        position: fixed;
+        color: white;
+        float: left;
+        font-size: small;
+    }
+    
+    .Person3Text {
+        margin-top: -16.5%;
+        margin-left: 40.5%;
+        position: fixed;
+        color: white;
+        float: left;
+        font-size: small;
+    }
+    
+    .Person4Text {
+        margin-top: -16.5%;
+        margin-left: 62%;
+        position: fixed;
+        color: white;
+        float: left;
+        font-size: small;
+    }
+    
+    .Person5Text {
+        margin-top: -16.5%;
+        margin-left: 83.5%;
+        position: fixed;
+        color: white;
+        float: left;
+        font-size: small;
+    }}

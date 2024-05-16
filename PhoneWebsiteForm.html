@@ -1,0 +1,99 @@
+<!--My html-->
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <!-- Linked css file-->
+    <link rel="stylesheet" href="../styles/PhoneWebsiteForm.css">
+    <title>Curriculum Vitae Page</title>
+</head>
+ 
+<body>
+ 
+    <!--form container -->
+    <div class="container">
+        <h1>Curriculum Vitae</h1>
+ 
+        <!-- Contains error -->
+        <h4 id="errorText"></h4>
+         
+        <!--element  -->
+        <form id="surveyForm">
+ 
+            <!--text for the name box-->
+        <label for="name">
+                Please type your name here:
+            </label><br>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required><br>
+ 
+                   <!--Text for the age box-->
+            <label for="age">
+                Please type your age here:
+            </label><br>
+
+            <!--link for the age number-->
+    <input type="number"
+                   id="age"
+                   name="age"
+                   required><br>
+ 
+                   <!--Text for the middle-->
+            <label>
+                How many years of experience do you have in our industry?
+            </label><br>
+        <input type="radio"
+                   id="experince"
+                   name="type"
+                   value="experience"
+                   required>
+             
+                   <!--First bullet point here-->
+            <label for="1 year">
+                1 year or less
+            </label><br>
+            <input type="radio"
+                   id="1 year"
+                   name="type"
+                   value="1 year"
+                   required>
+             
+            <!--Second bullet point text goes here-->
+           <label for="2 year">
+            1-5 years
+            </label><br>
+            <input type="radio"
+                   id="both"
+                   name="type"
+                   value="Both"
+                   required>
+ 
+                   <!--third bullet point text goes here-->
+<label for="5 year">
+                5+ years
+            </label><br>
+
+            <!--File button goes here-->
+            <input type="file"
+                   id="feedback"
+                   name="file"><br>
+ 
+ 
+            <!--Submit button goes here-->
+            <button type="submit">
+                Please press to submit
+            </button>
+        </form>
+    </div>
+ 
+    <!--Link for Form-->
+    <script src="../Javascript/PhoneWebsiteForm.js"></script>
+</body>
+ 
+</html>

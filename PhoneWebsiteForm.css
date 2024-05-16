@@ -1,0 +1,81 @@
+/*Style.css  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(#0c0f0e, #19393a, #094740, #1e6f6b, #6a9e9d, #afc7c7, #cbd7d9);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+ 
+/* Form border/background*/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0c0f0e;
+    color: white;
+    box-shadow: 0 0 10px
+        rgba(0, 0, 0, 0.1);
+}
+ 
+h1 {
+    text-align: center;
+}
+ 
+label {
+    margin-top: 1rem;
+}
+ 
+input {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 1.2rem 0;
+}
+ 
+/* Styles for specific input types  */
+input[type="text"],
+input[type="number"] {
+    width: 85%;
+}
+ 
+input[type="textarea"] {
+    width: 100%;
+    height: 9rem;
+}
+ 
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #19393a;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #094740;
+    color: white;
+}
+ 
+.error {
+    border: 3px solid red;
+}
+ 
+.errorText {
+    padding: 1rem;
+    border: 2px solid red;
+    box-shadow: white
+    font-size: large;
+}
+ 
+.successText {
+    padding: 1rem;
+    border: 4px solid green;
+    box-shadow: white
+        0px 4px 12px;
+    font-size: large;
+}

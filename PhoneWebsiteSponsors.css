@@ -1,0 +1,412 @@
+@media only screen and (min-width:1920px){
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: Arial, sans-serif;
+    background-color: #1CABE3;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    background-color: #000000;
+    color: white;
+    padding: 1.5%;
+    text-align: center;
+    font-size: x-large;
+    justify-content: space-evenly;
+    height: 10%;
+    border-bottom: pink 6pt groove
+}
+
+.HeaderText {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: white;
+    float: left;
+    margin-top: -50px;
+    margin-left: 430px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a.home:hover {
+    color: red;
+}
+
+a.About:hover {
+    color: orange;
+}
+
+a.work:hover {
+    color: yellow;
+}
+
+a.staff:hover {
+    color: lime;
+}
+
+a.phones:hover {
+    color: blue;
+}
+
+a.accessories:hover {
+    color: indigo;
+}
+
+a.reviews:hover {
+    color: violet;
+}
+
+a.Sponsors:hover {
+    color: pink;
+}
+
+footer  {
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    float: left;
+    font-size: x-large;
+    border-top: pink 6pt groove;
+}
+ 
+footer img  {
+    width: 2.7%;
+    height: auto;
+    float: right;
+}
+
+.Oppo {
+    height: 100vh;
+    width: 100%;
+}
+
+.Oppo img {
+    margin-top: 0.5%;
+    margin-left: 5%;
+    border-radius: 60%;
+    border: lime 4pt groove;
+    height: 30%;
+    width: 18%;
+    position: fixed;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.Oppo img:hover {
+    opacity: 0.5;
+}
+
+.Apple {
+    height: 100vh;
+    width: 100%;
+    margin-top: -49%;
+    margin-left: 77%;
+}
+
+.Apple img {
+    border-radius: 60%;
+    border: lime 4pt groove;
+    height: 30%;
+    width: 18%;
+    position: fixed;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.Apple img:hover {
+    opacity: 0.5;
+}
+
+.Samsung {
+    height: 100vh;
+    width: 100%;
+    margin-top: -26.5%;
+    margin-left: 5%;
+}
+
+.Samsung img {
+    border-radius: 60%;
+    border: lime 4pt groove;
+    height: 30.5%;
+    width: 18%;
+    position: fixed;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.Samsung img:hover {
+    opacity: 0.5;
+}
+
+.Nokia {
+    height: 100vh;
+    width: 100%;
+    margin-top: -49.5%;
+    margin-left: 77%;
+}
+
+.Nokia img {
+    border-radius: 60%;
+    border: lime 4pt groove;
+    height: 30.5%;
+    width: 18%;
+    position: fixed;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.Nokia img:hover {
+    opacity: 0.5;
+}
+
+.CentreText {
+    margin-top: 17%;
+    margin-left: 27%;
+    font-size: xx-large;
+    position: fixed;
+    background-color: #000000;
+    color: white;
+    width: 45%;
+    border: lime 4pt groove;
+} 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1440px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #1CABE3;
+        min-height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    header{
+        background-color: #000000;
+        color: white;
+        padding: 1.5%;
+        text-align: center;
+        font-size: x-large;
+        justify-content: space-evenly;
+        height: 10%;
+        border-bottom: pink 6pt groove
+    }
+    
+    .HeaderText {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        color: white;
+        float: left;
+        margin-top: -42px;
+        margin-left: 20%;
+        font-size: 120%;
+        text-decoration: none;
+    }
+    
+    a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a.home:hover {
+        color: red;
+    }
+    
+    a.About:hover {
+        color: orange;
+    }
+    
+    a.work:hover {
+        color: yellow;
+    }
+    
+    a.staff:hover {
+        color: lime;
+    }
+    
+    a.phones:hover {
+        color: blue;
+    }
+    
+    a.accessories:hover {
+        color: indigo;
+    }
+    
+    a.reviews:hover {
+        color: violet;
+    }
+    
+    a.sponsor:hover {
+        color: pink;
+    }
+    
+    footer  {
+        color: white;
+        text-align: center;
+        padding: 1% 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #000000;
+        float: left;
+        font-size: 120%;
+        border-top: pink 6pt groove;
+    }
+     
+    footer img  {
+        width: 2.7%;
+        height: auto;
+        float: right;
+    }
+    
+    .Oppo {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .Oppo img {
+        margin-top: 0.5%;
+        margin-left: 5%;
+        border-radius: 60%;
+        border: lime 4pt groove;
+        height: 30%;
+        width: 18%;
+        position: fixed;
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+
+    .Oppo img:hover {
+        opacity: 0.5;
+    }
+    
+    .Apple {
+        height: 100vh;
+        width: 100%;
+        margin-top: -53%;
+        margin-left: 77%;
+    }
+    
+    .Apple img {
+        border-radius: 60%;
+        border: lime 4pt groove;
+        height: 30%;
+        width: 18%;
+        position: fixed;
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+
+    .Apple img:hover {
+        opacity: 0.5;
+    }
+    
+    .Samsung {
+        height: 100vh;
+        width: 100%;
+        margin-top: -26%;
+        margin-left: 5%;
+    }
+    
+    .Samsung img {
+        border-radius: 60%;
+        border: lime 4pt groove;
+        height: 30.5%;
+        width: 18%;
+        position: fixed;
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+
+    .Samsung img:hover {
+        opacity: 0.5;
+    }
+    
+    .Nokia {
+        height: 100vh;
+        width: 100%;
+        margin-top: -54%;
+        margin-left: 77%;
+    }
+    
+    .Nokia img {
+        border-radius: 60%;
+        border: lime 4pt groove;
+        height: 30.5%;
+        width: 18%;
+        position: fixed;
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+
+    .Nokia img:hover {
+        opacity: 0.5;
+    }
+    
+    .CentreText {
+        margin-top: 19%;
+        margin-left: 25%;
+        font-size: large;
+        position: fixed;
+        background-color: #000000;
+        color: white;
+        border: lime 4pt groove;
+        width: 50%;
+    } 
+    }
